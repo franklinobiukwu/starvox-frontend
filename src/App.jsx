@@ -6,8 +6,6 @@ export default function App() {
 
 	return(
 		<>
-			<h1>Welcome to StarVox</h1>
-			<Hello/>
 			<Navbar/>
 		</>
 	)
