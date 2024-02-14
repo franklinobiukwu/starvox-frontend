@@ -11,7 +11,7 @@ const reloadCurrentPage = () => {
 };
 
 
-const Navbar = () => {
+const GeneralNavbar = () => {
 
 	return(
 		<>
@@ -41,16 +41,11 @@ const Navbar = () => {
 				{/* Right hand side of the navbar*/}
 				<div className="right-hand-navbar">
 					<div className="links">
-						<Link to='/login'>
+					<Link to='/'>
 							<button className="Login pl-7  pr-7 rounded-md border-2 border-white-500">
-								Login
+								Log Out
 							</button>
-						</Link>	
-						<Link to='/signup'>
-							<button className="Sign Up bg-yellow pl-5 pr-5 ml-9 mr-6 text-black rounded-md">
-								Sign Up
-							</button>
-						</Link>
+					</Link>	
 					</div>
 				</div>
 			</nav>
@@ -58,4 +53,4 @@ const Navbar = () => {
 	)
 }
 
-export default Navbar;
+export default GeneralNavbar;
