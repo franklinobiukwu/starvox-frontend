@@ -16,6 +16,7 @@ export default {
       'navy': '#0A0E3F',
       'yellow': '#FFD700',
       black: colors.black,
+      'gray88': '#E0E0E0',
     },
   },
   plugins: [],

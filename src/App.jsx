@@ -1,3 +1,4 @@
+
 import LandingPage from './pages/LandingPage.jsx';
 import Login from './pages/Login.jsx';
 import SignUp from './pages/SignUp.jsx';
@@ -6,6 +7,9 @@ import { BrowserRouter as Router, Route, Routes, createBrowserRouter, createRout
 import './index.css';
 import IndexLayout from './layouts/IndexLayout.jsx';
 import DashboardLayout from './layouts/DashboardLayout.jsx';
+import { useState } from 'react'
+import Navbar from './components/Navbar.jsx'
+import Infocard from './components/Infocard.jsx'
 
 const router = createBrowserRouter(
     createRoutesFromElements([
@@ -18,6 +22,7 @@ const router = createBrowserRouter(
         </Route>
     ])
 )
+
 
 export default function App() {
   return (
