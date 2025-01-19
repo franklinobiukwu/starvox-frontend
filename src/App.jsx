@@ -1,11 +1,14 @@
 import { useState } from 'react'
-import './App.css'
+
+import Navbar from './components/Navbar.jsx'
+import Infocard from './components/Infocard.jsx'
 
 export default function App() {
 
 	return(
 		<>
-			<h1>Welcome to StarVox</h1>
+			<Navbar/>
+			<Infocard/>
 		</>
 	)
 }
