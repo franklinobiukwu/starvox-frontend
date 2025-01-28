@@ -1,15 +1,19 @@
 import { Outlet } from "react-router-dom"
-import GeneralNavbar from "../components/GeneralNavbar.jsx";
+import Navbar from "../components/Navbar.jsx";
+import SideNav from "../components/SideNav.jsx";
 
 const DashboardLayout = () => {
     return (
         <div>
-            <GeneralNavbar/>
             <div>
-                <div>
-                    <div>SIDE NAV</div>
+                <Navbar/>
+            </div>
+
+            <div className="grid grid-cols-12">
+                <div className="col-span-3">
+                    <SideNav/>
                 </div>
-                <div>
+                <div className="col-span-9">
                     <Outlet/>
                 </div>
             </div>

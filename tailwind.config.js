@@ -12,7 +12,7 @@ export default {
       transparent: 'transparent',
       current: 'currentColor',
       white: colors.white,
-      grey: colors.grey,
+      gray: colors.gray,
       'navy': '#0A0E3F',
       'yellow': '#FFD700',
       black: colors.black,
